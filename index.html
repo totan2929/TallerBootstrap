@@ -1,11 +1,305 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carusel Bootstrap 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
+      </div>
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="title">
+            <h1 class="text-uppercase text-center text-black-50">
+              las 7 maravillas del mundo moderno
+            </h1>
+          </div>
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/murallachina.webp"
+                  class="card-img-top"
+                  alt="La gran muralla china"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">1.Gran Muralla China</h5>
+                <p class="card-text">
+                  Fue construida alrededor del año 220 a.C. por el primer
+                  emperador Qin Shin Huang, quien ordenó reunir los tramos de
+                  fortificaciones construidas anteriormente, a fin de crear un
+                  sistema de defensa contra las invasiones de los pueblos del
+                  Norte, revela la Organización de las Naciones Unidas para la
+                  Educación, la Ciencia y la Cultura (Unesco, por sus siglas en
+                  inglés).
+                </p>
+                <a
+                  href="https://historia.nationalgeographic.com.es/a/gran-muralla-china-mayor-obra-ingenieria-mundo_8272"
+                  class="btn btn-primary mt-2"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/ChichenItzaMexico.webp"
+                  class="card-img-top"
+                  alt="Chichen Itzá, México"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">2.Chichen Itzá, México</h5>
+                <p class="card-text">
+                  Chichén Itzá es una ciudad maya de la península de Yucatán
+                  (México) que floreció en los siglos IX y X. De acuerdo con
+                  Unesco, esta ciudad sagrada fue uno de los centros más
+                  importantes de la civilización maya. Entre los edificios que
+                  han sobrevivido al paso del tiempo figuran el Templo de los
+                  Guerreros, el Castillo y el observatorio circular conocido por
+                  el nombre de El Caracol.
+                </p>
+                <a
+                  href="https://viajes.nationalgeographic.com.es/a/chichen-itza-corazon-imperio-maya_11202"
+                  class="btn btn-primary mt-2"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/petraJordania.webp"
+                  class="card-img-top"
+                  alt="Petra, Jordania"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">3.Petra, Jordania</h5>
+                <p class="card-text mt-1">
+                  Petra es uno de los sitios arqueológicos más célebres del
+                  mundo. Se encuentra en la actual Jordania en un valle remoto,
+                  entre montañas de arenisca y acantilados. En parte está
+                  esculpida en roca y en parte construida en medio de las
+                  montañas surcadas por pasos y desfiladeros.
+                </p>
+                <a
+                  href="https://viajes.nationalgeographic.com.es/a/petra-que-ver-joya-nabatea-jordania-80-todavia-oculto_13675"
+                  class="btn btn-primary mt-4"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/machupichu.webp"
+                  class="card-img-top"
+                  alt=" Machu Picchu, Perú"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">4.Machu Picchu, Perú</h5>
+                <p class="card-text">
+                  Otra de las maravillas del mundo moderno localizadas en
+                  Latinoamérica es Machu Picchu. Ubicado a 2430 metros de altura
+                  en medio de un bosque tropical de montaña, el santuario es
+                  considerado una de las realizaciones arquitectónicas más
+                  imponentes del Imperio Inca. Desde 1983 es parte del
+                  patrimonio mundial.
+                </p>
+                <a
+                  href="https://viajes.nationalgeographic.com.es/z/machu-picchu"
+                  class="btn btn-primary mt-4"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/cristoRedentorBrasil.webp"
+                  class="card-img-top"
+                  alt="Cristo Redentor, Brasil"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">5.Cristo Redentor, Brasil</h5>
+                <p class="card-text">
+                  El emblemático Cristo Redentor que se encuentra en la cima del
+                  monte Corcovado en Río de Janeiro (Brasil) es otro de los
+                  destinos destacados. La emblemática construcción comenzó en
+                  1926 y finalizó cinco años más tarde. Según informa
+                  Britannica, el monumento está hecho de hormigón armado y mide
+                  30 metros de altura sin incluir su base, que mide unos 8
+                  metros, y sus brazos extendidos miden 28 metros.
+                </p>
+                <a
+                  href="https://www.nationalgeographicla.com/historia/2023/07/regalo-de-francia-conoce-esta-y-otras-curiosidades-sobre-el-cristo-redentor"
+                  class="btn btn-primary mt-2"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/coliseoItalia.webp"
+                  class="card-img-top"
+                  alt="Coliseo, Italia"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">6.Coliseo, Italia</h5>
+                <p class="card-text mt-1">
+                  El Coliseo de Roma es considerada una proeza de ingeniería
+                  construida en el siglo I por orden del emperador Vespasiano,
+                  señala Britannica. El anfiteatro mide 189 por 156 metros y
+                  cuenta con un complejo sistema de bóvedas. En su apogeo, la
+                  estructura tenía capacidad para 50 000 espectadores que podían
+                  apreciar luchas de gladiadores y combates entre hombres y
+                  animales.
+                </p>
+                <a
+                  href="https://historia.nationalgeographic.com.es/a/coliseo-roma-gladiadores-y-luchas-fieras_7275"
+                  class="btn btn-primary mt-2"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img
+                  src="./img/tajMajalIndia.webp"
+                  class="card-img-top"
+                  alt="Taj Mahal, India"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">7.Taj Mahal, India</h5>
+                <p class="card-text mt-3">
+                  La séptima maravilla del mundo moderno es el Taj Mahal, en la
+                  India. Se trata de un imponente mausoleo de mármol blanco
+                  edificado entre los años 1631 y 1648 por orden del emperador
+                  mogol Shah Jahan para perpetuar la memoria de su esposa
+                  favorita, explica la Unesco.
+                </p>
+                <a
+                  href="https://www.ngenespanol.com/el-mundo/la-tragica-historia-de-amor-detras-de-la-tumba-mas-famosa-del-mundo-el-taj-mahal/"
+                  class="btn btn-primary mt-4"
+                  target="_blank"
+                  >Ver más infromación...</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
